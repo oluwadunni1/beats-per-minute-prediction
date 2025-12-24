@@ -29,6 +29,7 @@ Eight models were evaluated, ranging from simple linear baselines to GPU-acceler
   - **R²:** ≈ 0.0001  
 
 The following diagnostic plots illustrate the behavior of the best performing model(Ridge Regression)
+
 ![Ridge Regression Diagnostics](figures/ridge_diagnostics.png)
 
 **Figure:** Diagnostic plots for Ridge Regression.  
