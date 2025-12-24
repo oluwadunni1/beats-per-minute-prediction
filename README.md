@@ -32,11 +32,12 @@ The following diagnostic plots illustrate the behavior of the best performing mo
 
 ![Ridge Regression Diagnostics](figures/ridge_diagnostics.png)
 
-**Figure:** Diagnostic plots for Ridge Regression.  
-Top-left: Actual vs. Predicted BPM showing predictions collapsing around the global mean.  
-Top-right: Residuals vs. Predicted BPM indicating random dispersion with no systematic structure.  
-Bottom-left: Residual distribution approximating a normal distribution centered near zero, this reflects the natural variability of the target rather than learned structure. 
-Bottom-right: Q–Q plot showing deviations at the tails, consistent with noise-dominated error.
+**Figure:** Diagnostic plots for Ridge Regression. 
+
+- Top-left: Actual vs. Predicted BPM showing predictions collapsing around the global mean.  
+- Top-right: Residuals vs. Predicted BPM indicating random dispersion with no systematic structure.  
+- Bottom-left: Residual distribution approximating a normal distribution centered near zero, this reflects the natural variability of the target rather than learned structure. 
+- Bottom-right: Q–Q plot showing deviations at the tails, consistent with noise-dominated error.
 
 ### Performance of Complex Models
 - Non-linear models (XGBoost, LightGBM, MLP) failed to outperform the baseline.
@@ -44,3 +45,19 @@ Bottom-right: Q–Q plot showing deviations at the tails, consistent with noise-
 - This outcome reinforces the conclusion that increased model complexity does not improve performance in low-signal datasets.
 
   **Conclusion:** The inability of any model to exceed an $R^2 > 0.01$ provides strong evidence that the available features in this dataset contain no meaningful predictive information for BPM.
+
+## Project Structure 
+```
+├── notebooks/
+│   ├── 01_exploratory_data_analysis.ipynb
+│   ├── 02_data_preprocessing.ipynb
+│   └── 03_model_training_and_evaluation.ipynb
+│
+├── scripts/
+│   └── preprocessing.py
+│
+├── figures/
+│   └── ridge_diagnostics.png
+│
+└── README.md
+```
