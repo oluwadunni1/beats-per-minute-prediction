@@ -4,7 +4,7 @@ Can we predict the tempo of a song using its musical characteristics?
 ## Project Overview
 The primary objective of this project was to build a regression model to predict the Beats Per Minute (BPM) of music tracks based on musical characteristics for each track(e.g., Energy, Instrumental Score, Mood Score).
 
-The data for this project was sourced from a Kaggle competition and consists of generated (synthetic) data. Despite utilizing a wide range of architectures from simple linear baselines to GPU-accelerated ensemble methods, comprehensive analysis suggests that this synthetic dataset contains significant noise and that the provided features possess no statistical correlation with the target tempo. This repository documents the Exploratory Data Analysis (EDA), preprocessing pipelines, and model benchmarking that led to this conclusion.
+The data for this project was sourced from a [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s5e9/data) and consists of generated (synthetic) data. Despite utilizing a wide range of architectures from simple linear baselines to GPU-accelerated ensemble methods, comprehensive analysis suggests that this synthetic dataset contains significant noise and that the provided features possess no statistical correlation with the target tempo. This repository documents the Exploratory Data Analysis (EDA), preprocessing pipelines, and model benchmarking that led to this conclusion.
 
 ## Model Evaluation Summary
 
