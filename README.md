@@ -44,7 +44,7 @@ The following diagnostic plots illustrate the behavior of the best performing mo
 - These models produced **negative R² values**, suggesting overfitting to noise rather than learning meaningful patterns.
 - This outcome reinforces the conclusion that increased model complexity does not improve performance in low-signal datasets.
 
-  **Conclusion:** The inability of any model to exceed an $R^2 > 0.01$ provides strong evidence that the available features in this dataset contain no meaningful predictive information for BPM.
+  **Conclusion:** The inability of any model to exceed an R² > 0.01 provides strong evidence that the available features in this dataset contain no meaningful predictive information for BPM.
 
 ## Project Structure 
 ```
